@@ -1,0 +1,17 @@
+<!ELEMENT employees (employee+)>
+
+<!ELEMENT employee (name,department,designation,earnings,deductions)>
+<!ATTLIST employee emp_id CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT designation (#PCDATA)>
+
+<!ELEMENT earnings (basic_salary,allowance,bonus)>
+<!ELEMENT basic_salary (#PCDATA)>
+<!ELEMENT allowance (#PCDATA)>
+<!ELEMENT bonus (#PCDATA)>
+
+<!ELEMENT deductions (tax,provident_fund_deduction)>
+<!ELEMENT tax (#PCDATA)>
+<!ELEMENT provident_fund_deduction (#PCDATA)>

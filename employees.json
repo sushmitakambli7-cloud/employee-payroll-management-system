@@ -1,0 +1,79 @@
+{
+    "employees": [
+        {
+            "emp_id": 1,
+            "name": "Rahul Sharma",
+            "department": "IT",
+            "designation": "Software Developer",
+            "earnings": {
+                "basic_salary": 45000,
+                "allowance": 5000,
+                "bonus": 3000
+            },
+            "deductions": {
+                "tax": 4500,
+                "provident_fund_deduction": 3600
+            }
+        },
+        {
+            "emp_id": 2,
+            "name": "Priya Patil",
+            "department": "HR",
+            "designation": "HR Executive",
+            "earnings": {
+                "basic_salary": 40000,
+                "allowance": 4500,
+                "bonus": 2500
+            },
+            "deductions": {
+                "tax": 4000,
+                "provident_fund_deduction": 3200
+            }
+        },
+        {
+            "emp_id": 3,
+            "name": "Amit Joshi",
+            "department": "Finance",
+            "designation": "Accountant",
+            "earnings": {
+                "basic_salary": 42000,
+                "allowance": 4000,
+                "bonus": 3000
+            },
+            "deductions": {
+                "tax": 4200,
+                "provident_fund_deduction": 3360
+            }
+        },
+        {
+            "emp_id": 4,
+            "name": "Sneha Desai",
+            "department": "Marketing",
+            "designation": "Marketing Executive",
+            "earnings": {
+                "basic_salary": 38000,
+                "allowance": 4500,
+                "bonus": 2000
+            },
+            "deductions": {
+                "tax": 3800,
+                "provident_fund_deduction": 3040
+            }
+        },
+        {
+            "emp_id": 5,
+            "name": "Rohan Mehta",
+            "department": "IT",
+            "designation": "System Analyst",
+            "earnings": {
+                "basic_salary": 50000,
+                "allowance": 6000,
+                "bonus": 4000
+            },
+            "deductions": {
+                "tax": 5000,
+                "provident_fund_deduction": 4000
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="employees">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="employee" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="department" type="xs:string"/>
+                            <xs:element name="designation" type="xs:string"/>
+
+                            <xs:element name="earnings">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="basic_salary" type="xs:integer"/>
+                                        <xs:element name="allowance" type="xs:integer"/>
+                                        <xs:element name="bonus" type="xs:integer"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="deductions">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tax" type="xs:integer"/>
+                                        <xs:element name="provident_fund_deduction" type="xs:integer"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+
+                        <xs:attribute name="emp_id" type="xs:integer" use="required"/>
+
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

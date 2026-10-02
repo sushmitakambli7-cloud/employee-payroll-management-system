@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE employees SYSTEM "employees.dtd">
+
+<employees>
+
+    <employee emp_id="1">
+        <name>Rahul Sharma</name>
+        <department>IT</department>
+        <designation>Software Developer</designation>
+
+        <earnings>
+            <basic_salary>45000</basic_salary>
+            <allowance>5000</allowance>
+            <bonus>3000</bonus>
+        </earnings>
+        
+        <deductions>
+            <tax>4500</tax>
+            <provident_fund_deduction>3600</provident_fund_deduction>
+        </deductions>
+    </employee>
+
+    <employee emp_id="2">
+        <name>Priya Patil</name>
+        <department>HR</department>
+        <designation>HR Executive</designation>
+
+        <earnings>
+            <basic_salary>40000</basic_salary>
+            <allowance>4500</allowance>
+            <bonus>2500</bonus>
+        </earnings>
+        
+        <deductions>
+            <tax>4000</tax>
+            <provident_fund_deduction>3200</provident_fund_deduction>
+        </deductions>
+    </employee>
+
+    <employee emp_id="3">
+        <name>Amit Joshi</name>
+        <department>Finance</department>
+        <designation>Accountant</designation>
+
+        <earnings>
+            <basic_salary>42000</basic_salary>
+            <allowance>4000</allowance>
+            <bonus>3000</bonus>
+        </earnings>
+        
+        <deductions>
+            <tax>4200</tax>
+            <provident_fund_deduction>3360</provident_fund_deduction>
+        </deductions>
+    </employee>
+
+    <employee emp_id="4">
+        <name>Sneha Desai</name>
+        <department>Marketing</department>
+        <designation>Marketing Executive</designation>
+
+        <earnings>
+            <basic_salary>38000</basic_salary>
+            <allowance>4500</allowance>
+            <bonus>2000</bonus>
+        </earnings>
+        
+        <deductions>
+            <tax>3800</tax>
+            <provident_fund_deduction>3040</provident_fund_deduction>
+        </deductions>
+    </employee>
+
+    <employee emp_id="5">
+        <name>Rohan Mehta</name>
+        <department>IT</department>
+        <designation>System Analyst</designation>
+
+        <earnings>
+            <basic_salary>50000</basic_salary>
+            <allowance>6000</allowance>
+            <bonus>4000</bonus>
+        </earnings>
+
+        <deductions>
+            <tax>5000</tax>
+            <provident_fund_deduction>4000</provident_fund_deduction>
+        </deductions>
+    </employee>
+
+</employees>
+
